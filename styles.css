@@ -1,0 +1,97 @@
+/* Fuente Rock Salt para la navbar */
+.nav-link,
+.navbar-brand,
+.btn {
+    font-family: "Rock Salt", cursive;
+}
+
+/* Tamaños de texto */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #2f00ff;
+    color: white !important;
+}
+
+/* Estilo del botón hamburguesa */
+.navbar-toggler {
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Fondo rosa completo para la navbar */
+.navbar {
+    background-color: rgba(255, 58, 174, 0.7) !important; /* Rosa con transparencia */
+    box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Asegurar que todos los textos de la navbar sean blancos */
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: white !important;
+}
+/* Fondo rosa sólido */
+.bg-rosa {
+    background-color: #e91e63 !important;
+  }
+  
+  /* Lema */
+  .lema-footer {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  /* Hover del lema */
+  .lema-footer:hover {
+    color: #ffd6ec;
+  }
+  
+  /* Hover de enlaces */
+  footer a {
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+  footer a:hover {
+    color: #ffeb3b;
+    text-decoration: none;
+  }
+  
+  /* Animación de entrada */
+  .footer-animado {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeUp 1s ease-out forwards;
+    animation-delay: 0.5s;
+  }
+  
+  /* Definición de la animación */
+  @keyframes fadeUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+    /* animacion de la tarjeta */
+  .card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-hover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+  
